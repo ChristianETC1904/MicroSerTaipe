@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Microser.Cliente.Dominio\Microser.Cliente.Dominio.csproj" />
+    <ProjectReference Include="..\Microser.Cliente.Infraestructura\Microser.Cliente.Infraestructura.csproj" />
+  </ItemGroup>
+
 </Project>
