@@ -5,15 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microser", "Microser", "{8A47EE8F-88F8-4CDC-860B-834235E1E729}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microser.Alquiler", "Microser.Alquiler", "{5A17ACE3-FB96-4C46-80E6-0A4B4A7BD254}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microser.Cliente", "Microser.Cliente", "{0DE8A7AB-9D3D-4712-AF67-306CDAAE2BA1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microser.Habitacion", "Microser.Habitacion", "{2FBA50AB-D3D1-4065-ACB7-80F78E7BF02C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microser.MetodoPago", "Microser.MetodoPago", "{0A33569A-D9A0-444A-AD3F-9CD7C7C4CFD9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microser.Cliente.Api", "..\Microser.Cliente.Api\Microser.Cliente.Api.csproj", "{2743F7E1-D435-4070-A68A-4C233368440C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microser.Cliente.Api", "..\Microser.Cliente.Api\Microser.Cliente.Api.csproj", "{2743F7E1-D435-4070-A68A-4C233368440C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +24,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5A17ACE3-FB96-4C46-80E6-0A4B4A7BD254} = {8A47EE8F-88F8-4CDC-860B-834235E1E729}
 		{0DE8A7AB-9D3D-4712-AF67-306CDAAE2BA1} = {8A47EE8F-88F8-4CDC-860B-834235E1E729}
-		{2FBA50AB-D3D1-4065-ACB7-80F78E7BF02C} = {8A47EE8F-88F8-4CDC-860B-834235E1E729}
-		{0A33569A-D9A0-444A-AD3F-9CD7C7C4CFD9} = {8A47EE8F-88F8-4CDC-860B-834235E1E729}
 		{2743F7E1-D435-4070-A68A-4C233368440C} = {0DE8A7AB-9D3D-4712-AF67-306CDAAE2BA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
