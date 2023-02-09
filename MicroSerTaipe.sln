@@ -25,6 +25,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microser.Habitacion.Dominio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microser.Habitacion.Infraestructura", "Microser.Habitacion.Infraestructura\Microser.Habitacion.Infraestructura.csproj", "{345C44D8-F083-4EE6-9F85-B974943693E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microser.Alquiler", "Microser.Alquiler", "{F096C375-9EE6-42DA-A379-4997762BC7BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microser.Alquiler.Api", "Microser.Alquiler.Api\Microser.Alquiler.Api.csproj", "{B151270A-9721-4BDE-B264-82E805BB7983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microser.Alquiler.Aplicacion", "Microser.Alquiler.Aplicacion\Microser.Alquiler.Aplicacion.csproj", "{B5E0D497-0FA0-4C6B-920A-1BD3BB341B89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microser.Alquiler.Dominio", "Microser.Alquiler.Dominio\Microser.Alquiler.Dominio.csproj", "{2947D0AA-FA06-4CB3-8230-29FC0EF7EBF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microser.Alquiler.Infraestructura", "Microser.Alquiler.Infraestructura\Microser.Alquiler.Infraestructura.csproj", "{CC1A912F-F2E0-44BA-AAC3-6578BC1E1233}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +73,22 @@ Global
 		{345C44D8-F083-4EE6-9F85-B974943693E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345C44D8-F083-4EE6-9F85-B974943693E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345C44D8-F083-4EE6-9F85-B974943693E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B151270A-9721-4BDE-B264-82E805BB7983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B151270A-9721-4BDE-B264-82E805BB7983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B151270A-9721-4BDE-B264-82E805BB7983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B151270A-9721-4BDE-B264-82E805BB7983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E0D497-0FA0-4C6B-920A-1BD3BB341B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E0D497-0FA0-4C6B-920A-1BD3BB341B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E0D497-0FA0-4C6B-920A-1BD3BB341B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E0D497-0FA0-4C6B-920A-1BD3BB341B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2947D0AA-FA06-4CB3-8230-29FC0EF7EBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2947D0AA-FA06-4CB3-8230-29FC0EF7EBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2947D0AA-FA06-4CB3-8230-29FC0EF7EBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2947D0AA-FA06-4CB3-8230-29FC0EF7EBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1A912F-F2E0-44BA-AAC3-6578BC1E1233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1A912F-F2E0-44BA-AAC3-6578BC1E1233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1A912F-F2E0-44BA-AAC3-6578BC1E1233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1A912F-F2E0-44BA-AAC3-6578BC1E1233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +104,11 @@ Global
 		{6B696EB3-3D17-4FCB-944D-FFB12E27B55F} = {D94BED14-E2CE-42A8-974C-4E88D372744D}
 		{29FCA86C-0933-4CAE-99E3-66EB0EB924BE} = {D94BED14-E2CE-42A8-974C-4E88D372744D}
 		{345C44D8-F083-4EE6-9F85-B974943693E1} = {D94BED14-E2CE-42A8-974C-4E88D372744D}
+		{F096C375-9EE6-42DA-A379-4997762BC7BA} = {8A47EE8F-88F8-4CDC-860B-834235E1E729}
+		{B151270A-9721-4BDE-B264-82E805BB7983} = {F096C375-9EE6-42DA-A379-4997762BC7BA}
+		{B5E0D497-0FA0-4C6B-920A-1BD3BB341B89} = {F096C375-9EE6-42DA-A379-4997762BC7BA}
+		{2947D0AA-FA06-4CB3-8230-29FC0EF7EBF0} = {F096C375-9EE6-42DA-A379-4997762BC7BA}
+		{CC1A912F-F2E0-44BA-AAC3-6578BC1E1233} = {F096C375-9EE6-42DA-A379-4997762BC7BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6709563F-9C44-4C8C-B457-C77B2EACBE62}
