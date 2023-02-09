@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microser.Cliente.Dominio\Microser.Cliente.Dominio.csproj" />
+    <ProjectReference Include="..\Microser.Cliente.Infraestructura\Microser.Cliente.Infraestructura.csproj" />
+  </ItemGroup>
+
+</Project>
